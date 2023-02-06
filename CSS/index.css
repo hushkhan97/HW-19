@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 15px;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: Helvetica, Arial, sans-serif;
+    color: antiquewhite;
+    padding: 12px;
+    width: 100%;
+    align-items: center;
+    background-color: black;
+}
+
+.logo {
+    margin-left: 5em;
+    padding: 1em;
+    width: 100px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    width: 25%;
+    justify-content: space-between;
+}
+
+main {
+    color: white;
+    text-align: left;
+    font-size: 50px;
+    background-image: url("./images/hero_space_image.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+.content {
+    position: relative;
+}
+
+.text {
+    position: absolute;
+    top: 300px;
+    left: 200px;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: black;
+    color: white;
+    font-size: 400px;
+}
+
+.footer li {
+    padding: 40px;
+    display: flex;
+    justify-content: space-around;
+    white-space: nowrap;    
+}
+
+a {
+    font-weight: bold;
+    margin-left: 0px;
+    margin-right: 50px;
+    text-decoration: none;
+    color: orange;
+}
+
+
+.flex-container{
+    margin-left: 100px;
+    margin-top: 100px;
+    display: flex;
+    
+}
+
+.skills{
+    flex: 1;
+    color: white; 
+}
+
+.skills p {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.vectors {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+}
+
+
+
+.img-things {
+    width: 150px;
+    /* height: 150px; */
+    padding: 10px;
+}
+
+
+/* img {
+    width: 150px;
+}
+ */
+
+
+.myWork {
+    color: antiquewhite;
+    height: 100vh;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.working{
+    margin-left: 100px;
+    padding-bottom: 25px;
+ }
+
+ .project-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-areas: "left right";
+    padding: 10px 100px 10px 100px;
+}
+
+.img-container {
+    grid-area: "left";
+}
+
+.placeholder {
+    width: 480px;
+    
+}
+
+button{
+    background-color: white;
+      border: none;
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      border-radius: 15px;
+    
+        justify-content: center;
+        display: flex;
+        margin-right: 100px;
+        margin-top: 100px;
+        scale: .75;
+        
+    }
+    
+    @media only screen and (max-width: 600px) {
+        .flex-container{
+            flex-direction: column;
+        }
+        .skills{
+            width: 100%;
+    
+        }
+        .project-container{
+            display: flex;
+            flex-direction: column;
+        }
+      }
+      
+/* .dropdown{
+    display: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    z-index: 1;
+} */
