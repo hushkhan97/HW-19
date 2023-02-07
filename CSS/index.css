@@ -64,7 +64,7 @@ main {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 55px;
 }
 
 .footer {
@@ -91,7 +91,13 @@ a {
     color: orange;
 }
 
+p{
+    font-size: 25px;
+}
 
+.CTA{
+    font-size: 25px;
+}
 .flex-container{
     margin-left: 100px;
     margin-top: 100px;
